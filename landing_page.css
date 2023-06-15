@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "Mulish";
+    src: url(./fonts/Mulish-Black.ttf) format('truetype'),
+        url(./fonts/Mulish-Bold.ttf) format('truetype'),
+        url(./fonts/Mulish-ExtraBold.ttf) format('truetype'),
+        url(./fonts/Mulish-Regular.ttf) format('truetype');
+}
+
+* {
+    font-family: 'Mulish';
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+}
+
+.img-logo {
+    background-image: url(./img.svg/Course\ topics.svg);
+    width: 124px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav p {
+    font: 700 16px 'Mulish';
+    color: #001A49;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 25px;
+}
+
+.btn {
+    background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+    border-radius: 33px;
+    width: 147px;
+    font: 700 16px 'Mulish';
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.wrapper {
+    width: 537px;
+
+}
+
+.introductory {
+    display: flex;
+    margin-top: 187px;
+    justify-content: space-between;
+}
+
+.introductory h1 {
+    font: 800 60px 'Mulish';
+    color: #001A49;
+    margin-bottom: 20px;
+}
+
+
+.introductory p {
+    font: 400 20px 'Mulish';
+    color: #4F596A;
+    margin-bottom: 35px;
+}
+
+.introductory .button {
+    background: linear-gradient(44.11deg, #8FBBE6 15.75%, #3D75BF 84.63%);
+    border-radius: 33px;
+    width: 206px;
+    font: 700 16px 'Mulish';
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.video {
+    background-image: url(./img.svg/Group\ 7.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 590px;
+    height: 360px;
+    position: relative;
+    left: 250px;
+}
+
+.statistic {
+    margin-top: 200px;
+}
+
+.info {
+    background: #FFFFFF;
+    border: 1px solid #E7EAEB;
+    border-radius: 21px;
+    width: 100%;
+    height: 172px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+
+.info div p {
+    font: 400 16px 'Mulish';
+    color: #4F596A;
+}
+
+.info div h2 {
+    font: 800 40px 'Mulish';
+    color: #001A49;
+}
+
+.info div:not(:last-child) {
+    border-right: 1px solid #E7EAEB;
+}
+
+.oval {
+    background-image: url(./img.svg/Side\ Shape.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 288px;
+    height: 288px;
+    position: absolute;
+    left: 200px;
+    z-index: 0;
+
+}
+
+.benefits {
+    margin-top: 194px;
+}
+
+.benefits h1 {
+    font: 800 46px 'Mulish';
+    color: #001A49;
+    width: 637px;
+    height: 69px;
+    margin: 0 389px 0 414px;;
+}
+
+.benefits p{
+font: 400 20px 'Mulish';
+color: #4F596A;
+margin-top: 1px;
+text-align: center;
+margin-bottom: 60 px;
+width: 560px;
+height: 60px;
+margin: 0 444px 0 436px;
+}
+
+
+.benefits .process {
+    display: flex;
+    background: #EEF7FF;
+    mix-blend-mode: normal;
+    border-radius: 21px;
+    width: 1120px;
+    height: 172px;
+}
+
+.benefits .process .emblem {
+    background-image: url(./img.svg/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 64px;
+    height: 64px;
+    margin: 39px 0 0 46px;
+}
+
+.benefits .process .middle h2 {
+    font: 800 24px 'Mulish';
+    color: #001A49;
+    margin: 39px 0 0 20px;
+}
+
+
+.benefits .process .middle p {
+    font: 400 16px 'Mulish';
+    color: #4F596A;
+    margin: 20px 0 0 20px;
+    width: 960px;
+}
+
+.benefits .process:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.finish{
+    margin-top: 120px;
+}
+
+.finish .emblem_hs {
+    background-image: url(./img.svg/Marico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 190px;
+    height: 85px;
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
+
+.finish .end {
+    text-align: center;
+    margin-bottom: 30px;
+    font: 800 50px 'Mulish';
+    color: #001A49;
+}
+
+.finish .button_2 {
+    background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+    border-radius: 33px;
+    width: 206px;
+    font: 700 16px 'Mulish';
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+}
+
+footer {
+    margin-top: 129px;
+}
+
+
+.ending {
+    background-image: url(./assets/Marico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 79px;
+    height: 56px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hs {
+    font: 800 37px 'Mulish';
+    color: #001A49;
+    display: flex;
+    align-items: center;
+}
+
+.official {
+    font: 500 28px 'Poppins';
+    color: #707070;
+}
+
+.gmail {
+    font: 500 27px 'Mulish';
+    color: #707070;
+    margin-bottom: 85px;
+}
+
+
