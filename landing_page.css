@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     padding: 37px 0;
     align-items: center;
+    width: 1200px;
 }
 
 header nav {
@@ -36,6 +37,7 @@ header nav {
     height: 38px;
     background-repeat: no-repeat;
     background-size: contain;
+    max-width: 90%;
 }
 
 header nav p {
@@ -109,7 +111,7 @@ header nav p:not(:last-child) {
     background: #FFFFFF;
     border: 1px solid #E7EAEB;
     border-radius: 21px;
-    width: 100%;
+    /* width: 100%;  */
     height: 172px;
     align-items: center;
     display: flex;
@@ -160,20 +162,15 @@ header nav p:not(:last-child) {
 .benefits h1 {
     font: 800 46px 'Mulish';
     color: #001A49;
-    width: 637px;
-    height: 69px;
-    margin: 0 389px 0 414px;;
+    margin: 0 389px 0 414px;
 }
 
-.benefits p{
-font: 400 20px 'Mulish';
-color: #4F596A;
-margin-top: 1px;
-text-align: center;
-margin-bottom: 60 px;
-width: 560px;
-height: 60px;
-margin: 0 444px 0 436px;
+.benefits p {
+    font: 400 20px 'Mulish';
+    color: #4F596A;
+    margin-top: 1px;
+    text-align: center;
+    margin: 0 444px 0 436px;
 }
 
 
@@ -206,14 +203,13 @@ margin: 0 444px 0 436px;
     font: 400 16px 'Mulish';
     color: #4F596A;
     margin: 20px 0 0 20px;
-    width: 960px;
 }
 
 .benefits .process:not(:last-child) {
     margin-bottom: 30px;
 }
 
-.finish{
+.finish {
     margin-top: 120px;
 }
 
@@ -281,4 +277,120 @@ footer div {
     margin-bottom: 85px;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        width: 600px;
+    }
 
+    header {
+        width: 100%;
+        /* max-width: 90%; */
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .introductory .video {
+        display: none;
+    }
+
+    .statistic {
+        margin-top: 70px;
+    }
+
+    .statistic .oval {
+        display: none;
+    }
+
+    .statistic .info {
+        flex-direction: column;
+        justify-content: center;
+        background-color: #f5f5f5;
+        border-width: 0;
+        margin-top: ;
+
+    }
+
+    .info div:not(:last-child) {
+        border-width: 0px;
+    }
+
+    .introductory {
+        margin-top: 50px;
+    }
+
+    .introductory h1 {
+        font: 600 40px 'Mulish';
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .introductory p {
+        font: 400 15px 'Mulish';
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .introductory .button {
+        width: 170px;
+        margin: auto;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .benefits {
+        margin-top: 70px;
+    }
+
+    .benefits h1 {
+        font: 600 30px 'Mulish';
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .benefits p {
+        font: 200 15px 'Mulish';
+        width: 100%;
+        margin: auto;
+    }
+
+    .benefits .emblem {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .finish {
+        width: 100%;
+    }
+
+    .finish .emblem_hs {
+        display: none;
+    }
+
+
+    .benefits .process {
+        width: 100%;
+    }
+
+    .benefits .process .middle h2 {
+        font: 600 20px 'Mulish';
+        width: 100%;
+    }
+
+
+    .benefits .process .middle p {
+        font: 200 12px 'Mulish';
+        width: 100%;
+    }
+
+    .ending {
+        display: none;
+    }
+}
